@@ -1,0 +1,65 @@
+# ═══════════════════════════════════
+# TRADING BOT DEPENDENCIES
+# ═══════════════════════════════════
+
+# Core Trading
+ccxt==4.0.62
+pandas==2.1.3
+numpy==1.24.3
+
+# Technical Indicators
+ta-lib==0.4.28
+
+# Machine Learning
+xgboost==2.0.3
+lightgbm==4.1.0
+
+# Reinforcement Learning
+gymnasium==0.29.1
+
+# Database
+asyncpg==0.29.0
+aiosqlite==0.19.0
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+
+# Message Queue
+aio-pika==10.1.0
+
+# Web & Async
+fastapi==0.104.1
+uvicorn==0.24.0
+aiohttp==3.9.1
+
+# Notifications
+python-telegram-bot==20.3
+
+# LLM
+ollama==0.1.0
+
+# Configuration
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# Monitoring & Logging
+prometheus-client==0.18.0
+python-json-logger==2.0.7
+
+# Dashboard
+streamlit==1.28.1
+plotly==5.17.0
+
+# Utilities
+requests==2.31.0
+pytz==2023.3
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+black==23.11.0
+isort==5.13.2
+flake8==6.1.0
+mypy==1.7.1
+psutil==5.9.6

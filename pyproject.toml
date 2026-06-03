@@ -1,0 +1,36 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "crypto-bot-mexc"
+version = "1.0.0"
+description = "Enterprise trading bot cho MEXC - AI lightweight, async, CPU only"
+authors = [{name = "Trading Team", email = "info@tradingbot.com"}]
+license = "MIT"
+python-requires = ">=3.10"
+
+[project.dependencies]
+ccxt = "^4.0"
+pandas = "^2.0"
+numpy = "^1.24"
+ta-lib = "^0.4"
+xgboost = "^2.0"
+lightgbm = "^4.0"
+gymnasium = "^0.29"
+asyncpg = "^0.28"
+aiosqlite = "^0.19"
+sqlalchemy = "^2.0"
+aio-pika = "^10.0"
+fastapi = "^0.104"
+uvicorn = "^0.24"
+aiohttp = "^3.9"
+python-telegram-bot = "^20.0"
+ollama = "^0.1"
+pydantic = "^2.0"
+pydantic-settings = "^2.0"
+python-dotenv = "^1.0"
+prometheus-client = "^0.18"
+streamlit = "^1.28"
+plotly = "^5.17"
+python-json-logger = "^2.0"

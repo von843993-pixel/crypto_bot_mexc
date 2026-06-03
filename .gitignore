@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Data & Logs
+data/historical/
+data/models/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Trading data
+paper_trades/
+live_trades/
+backtest_results/
+
+# Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temp
+*.tmp
+*.temp
+*.bak
+
+# Config
+config.local.yaml
+secrets.yaml
+
+# Docker
+docker-compose.override.yml
+
+# Node
+node_modules/
+npm-debug.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Monitoring
+prometheus_data/
+grafana_data/
+
+# Cache
+.cache/
+*.cache
